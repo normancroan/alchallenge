@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.BenefitContainer {
+  background: linear-gradient(to bottom, #9910EE, #7A02C0);
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Benefit {
+  color: white;
+  max-width: 50%;
+}
+
+.OptionsContainer {
+  display: flex;
+  justify-content: space-around;
+  min-height: 50px;
+  margin-bottom: 30px;
+}
+
+.Option {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.OptionSelected {
+  box-sizing: content-box;
+  width: 100%;
+  border: solid #5B6DCD 10px;
+  padding: 5px;
+}
+
+.OptionIdle {
+  box-sizing: content-box;
+  width: 100%;
+  border: solid #868686 5px;
+  padding: 5px;
+}
+
+.CallsToActionsContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: red;
+  margin-top: auto;
+}
+
+.CallToActionButton {
+  align-self: center;
+  border: none;
+  color: white;
+  background: linear-gradient(to right, #3156F8, #81E2FA);
+  padding: 15px;
+  border-radius: 25px;
+  min-width: 250px;
+  min-height: 60px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.Restore {
+  margin-bottom: 20px;
+}
+
+.FadedText {
+  color: #D3D3D3;
+  font-weight: lighter;
+}
+
+.Footer {
+  margin-top: auto;
+}
