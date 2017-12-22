@@ -9,7 +9,7 @@ const Benefits = createReactClass({
       return (
         <Carousel
         autoplay={true}
-        autoplayInterval={3000}
+        autoplayInterval={4000}
         >
           <Benefit title="Safer Calling"/>
           <Benefit title="Crystal Clear Quality"/>
